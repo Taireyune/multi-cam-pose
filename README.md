@@ -28,7 +28,7 @@ width="810" height="500" alt="single camera GUI">
 
 ### Check detection quality and reprojection error
 The images are fed to the 
-[single_cam.py method](https://github.com/Taireyune/multi_cam_pose/blob/master/sample_code/single_cam.py)
+[single_cam.py](https://github.com/Taireyune/multi_cam_pose/blob/master/sample_code/single_cam.py)
 to obtain the detected corners and reprojection errors for trouble shooting and
 calibration quality control. If everything checks out, the output
 camera parameters are used for the next step.
@@ -38,7 +38,7 @@ src="https://github.com/Taireyune/multi_cam_pose/blob/master/images/single_cam.g
 width="810" height="689" alt="single camera detection">
 
 ## Multi camera calibration
-[dual_cam.py methods](https://github.com/Taireyune/multi_cam_pose/blob/master/sample_code/dual_cam.py)
+[dual_cam.py](https://github.com/Taireyune/multi_cam_pose/blob/master/sample_code/dual_cam.py)
 is used to find spatial relationships between the two cameras. 
 From an operating point of view, the calibration process is the same as the
 single camera calibration process, but requires fewer images to get the job
@@ -65,14 +65,14 @@ Here is the 3D view from the right side of the cameras.
 
 <img 
 src="https://github.com/Taireyune/multi_cam_pose/blob/master/images/side_view.gif" 
-width="810" height="2068" alt="side view">
+width="500" height="1277" alt="side view">
 
 ### Top view
 I pointed at where the camera project would be.
 
 <img 
-src="https://github.com/Taireyune/multi_cam_pose/blob/master/images/back_view.gif" 
-width="810" height="2068" alt="top view">
+src="https://github.com/Taireyune/multi_cam_pose/blob/master/images/top_view.gif" 
+width="500" height="1277" alt="top view">
 
 ### Real time
 For real time inference, I had to run a lot of the methods in parallel and
