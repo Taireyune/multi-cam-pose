@@ -12,7 +12,6 @@ in tensorflow. This repository contains some sample codes.
 ## Work flow
 To begin, the know-how and methods for the camera calibration and 3D triangulation 
 processes came from [OpenCV](https://docs.opencv.org/3.4.3/). 
-So glad they have everything I needed in C++ and python open-sourced.
 
 1. [**Single camera calibration**](https://github.com/Taireyune/multi-cam-pose#single-camera-calibration)
 2. [**Multi camera calibration**](https://github.com/Taireyune/multi-cam-pose#multi-camera-calibration)
@@ -88,7 +87,7 @@ is running. It saves the video at a much higher frame rate so that a better
 quality inference can be done post-capture 
 (my system write the videos on RAID disks, so disk-io is not a bottle-neck).
 
-Really gotta learn C++ if I want to get more performance out...
+Really gotta be more fluent in C++ if I want to get more performance out...
 
 <img 
 src="https://github.com/Taireyune/multi-cam-pose/blob/master/images/live_display.gif" 
