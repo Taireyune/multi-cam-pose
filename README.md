@@ -67,7 +67,7 @@ src="https://github.com/Taireyune/multi-cam-pose/blob/master/images/side_view.gi
 width="500" height="1277" alt="side view">
 
 ### Top view
-I pointed at where the camera project would be.
+I pointed at where the camera projection would be.
 
 <img 
 src="https://github.com/Taireyune/multi-cam-pose/blob/master/images/top_view.gif" 
