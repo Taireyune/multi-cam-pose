@@ -1,13 +1,15 @@
 # multi-cam-pose
 
 **Multi Cam Pose** uses
-[2D real-time pose estimation]()
+[2D real-time pose estimation](https://github.com/ildoonet/tf-pose-estimation)
 with multiple cameras (currently only made to work with my own setup) to 
 triangulate 3D human key point coordinates in real time.
 
-It is written with python-multiprocessing, numpy, cv2, and the pose estimation by 
-[ildoonet]() 
-in tensorflow. This repository contains some sample codes. 
+It is written with python-multiprocessing, numpy, and cv2. The pose estimation model is a
+tensorflow version of the 
+[CMU/OpenPose model](https://github.com/CMU-Perceptual-Computing-Lab/openpose) by 
+[ildoonet](https://github.com/ildoonet/tf-pose-estimation). 
+This repository contains some sample codes. 
 
 ## Work flow
 To begin, the know-how and methods for the camera calibration and 3D triangulation 
